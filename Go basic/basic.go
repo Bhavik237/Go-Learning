@@ -81,4 +81,10 @@ func main() {
     // Using blank identifier
     _, ok1 := map_2[99]
     fmt.Println("\nKey present or not:", ok1)
+
+	// Deleting keys
+    // Using delete function
+	fmt.Println("Before Deleteing : ",map_2)
+    delete(map_2, 93)
+	fmt.Println("After Deleteing : ",map_2)
 }
