@@ -87,4 +87,7 @@ func main() {
 	fmt.Println("Before Deleteing : ",map_2)
     delete(map_2, 93)
 	fmt.Println("After Deleteing : ",map_2)
+
+
+	//Sets -> there is no set is GO need to implemnt self
 }
